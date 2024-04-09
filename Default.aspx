@@ -45,7 +45,6 @@
 	</div>
 	<script>
         function doPayment() {
-
             Layer.checkout(
                 {
                     token: document.getElementById("layer_pay_token_id").value,
